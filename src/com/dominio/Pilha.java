@@ -42,7 +42,7 @@ public class Pilha<T> {
     // Retorna o elemento que está no topo da pilha
     public T getTopo() {
         if (this.tamanho == 0) {
-            return (T) ("[ ]");
+            return (T) null;
         }
         return this.inicio.getValor();
     }

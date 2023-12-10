@@ -10,6 +10,7 @@ public class Main {
         // Antes de adicionar elementos na pilha
         System.out.println("Tamanho: " + pilha.getTamanho());
         System.out.println("A pilha possui elementos? " + pilha.contem());
+        System.out.println("Topo da pilha: " + pilha.getTopo());
         System.out.println("Pilha\n" + pilha.mostrarPilha());
 
         // Adicionando elementos na pilha
@@ -24,6 +25,7 @@ public class Main {
         // Após adicionar elementos na pilha
         System.out.println("Tamanho: " + pilha.getTamanho());
         System.out.println("A pilha possui elementos? " + pilha.contem());
+        System.out.println("Topo da pilha: " + pilha.getTopo());
         System.out.println("Pilha\n" + pilha.mostrarPilha());
 
         // Mostrando elemento de uma determinada posição
@@ -42,6 +44,7 @@ public class Main {
         System.out.println("\nApós remover elementos:\n");
         System.out.println("Tamanho: " + pilha.getTamanho());
         System.out.println("A pilha possui elementos? " + pilha.contem());
+        System.out.println("Topo da pilha: " + pilha.getTopo());
         System.out.println("Pilha\n" + pilha.mostrarPilha());
 
         // Limpando toda a pilha
@@ -51,6 +54,7 @@ public class Main {
         System.out.println("\nApós limpar a pilha:\n");
         System.out.println("Tamanho: " + pilha.getTamanho());
         System.out.println("A pilha possui elementos? " + pilha.contem());
+        System.out.println("Topo da pilha: " + pilha.getTopo());
         System.out.println("Pilha\n" + pilha.mostrarPilha());
 
     }
